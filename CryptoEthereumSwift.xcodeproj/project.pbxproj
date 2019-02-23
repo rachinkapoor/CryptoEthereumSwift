@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15F2061780E1E90B034507B7 /* Pods_CryptoEthereumSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E54FA0FC6BB95D851056D27 /* Pods_CryptoEthereumSwiftTests.framework */; };
 		1AD1D62520B7E822007AFF80 /* CryptoEthereumSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD1D61B20B7E822007AFF80 /* CryptoEthereumSwift.framework */; };
 		1AD1D62C20B7E822007AFF80 /* CryptoEthereumSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD1D61E20B7E822007AFF80 /* CryptoEthereumSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AD1D63820B7E96E007AFF80 /* Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD1D63720B7E96E007AFF80 /* Internal.m */; };
@@ -19,6 +20,8 @@
 		1AD1D65220B7F07F007AFF80 /* Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD1D63620B7E95A007AFF80 /* Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1AD1D65420B7F112007AFF80 /* EllipticCurveEncrypterSecp256k1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD1D65320B7F112007AFF80 /* EllipticCurveEncrypterSecp256k1.swift */; };
 		1AD1D65620B7F252007AFF80 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD1D65520B7F252007AFF80 /* CryptoSwift.framework */; };
+		9951028EC69DEC427080B1C3 /* Pods_CryptoEthereumSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D446A63174D63D233CDA154 /* Pods_CryptoEthereumSwift.framework */; };
+		C9290F9DA441898D36F55BC1 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC25CE062E1D7F70494AF82 /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07B5BE6C14A7A695A4C779C7 /* Pods-CryptoEthereumSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoEthereumSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-CryptoEthereumSwiftTests/Pods-CryptoEthereumSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1AD1D61B20B7E822007AFF80 /* CryptoEthereumSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoEthereumSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD1D61E20B7E822007AFF80 /* CryptoEthereumSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CryptoEthereumSwift.h; sourceTree = "<group>"; };
 		1AD1D61F20B7E822007AFF80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +54,14 @@
 		1AD1D65020B7F009007AFF80 /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
 		1AD1D65320B7F112007AFF80 /* EllipticCurveEncrypterSecp256k1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticCurveEncrypterSecp256k1.swift; sourceTree = "<group>"; };
 		1AD1D65520B7F252007AFF80 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/iOS/CryptoSwift.framework; sourceTree = SOURCE_ROOT; };
+		2B624C7C004DC43BB37527EC /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2EB50AA61FEB8390DE12DE2E /* Pods-CryptoEthereumSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoEthereumSwift.release.xcconfig"; path = "Target Support Files/Pods-CryptoEthereumSwift/Pods-CryptoEthereumSwift.release.xcconfig"; sourceTree = "<group>"; };
+		3D446A63174D63D233CDA154 /* Pods_CryptoEthereumSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoEthereumSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		466CACAAC5D3B785B6131F18 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		4E54FA0FC6BB95D851056D27 /* Pods_CryptoEthereumSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoEthereumSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50938724AA6EADA14F099795 /* Pods-CryptoEthereumSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoEthereumSwift.debug.xcconfig"; path = "Target Support Files/Pods-CryptoEthereumSwift/Pods-CryptoEthereumSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		736EE17EF13C8E426C422575 /* Pods-CryptoEthereumSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoEthereumSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-CryptoEthereumSwiftTests/Pods-CryptoEthereumSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		FBC25CE062E1D7F70494AF82 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AD1D65620B7F252007AFF80 /* CryptoSwift.framework in Frameworks */,
+				9951028EC69DEC427080B1C3 /* Pods_CryptoEthereumSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AD1D62520B7E822007AFF80 /* CryptoEthereumSwift.framework in Frameworks */,
+				15F2061780E1E90B034507B7 /* Pods_CryptoEthereumSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9290F9DA441898D36F55BC1 /* Pods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +101,8 @@
 				1AD1D62820B7E822007AFF80 /* CryptoEthereumSwiftTests */,
 				1AD1D63F20B7EF2F007AFF80 /* Example */,
 				1AD1D61C20B7E822007AFF80 /* Products */,
+				A48AB64E78775283F1AE5A7C /* Pods */,
+				D82CBB6FE47FA3E8E0424399 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +168,29 @@
 			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
+		A48AB64E78775283F1AE5A7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50938724AA6EADA14F099795 /* Pods-CryptoEthereumSwift.debug.xcconfig */,
+				2EB50AA61FEB8390DE12DE2E /* Pods-CryptoEthereumSwift.release.xcconfig */,
+				07B5BE6C14A7A695A4C779C7 /* Pods-CryptoEthereumSwiftTests.debug.xcconfig */,
+				736EE17EF13C8E426C422575 /* Pods-CryptoEthereumSwiftTests.release.xcconfig */,
+				2B624C7C004DC43BB37527EC /* Pods-Example.debug.xcconfig */,
+				466CACAAC5D3B785B6131F18 /* Pods-Example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D82CBB6FE47FA3E8E0424399 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D446A63174D63D233CDA154 /* Pods_CryptoEthereumSwift.framework */,
+				4E54FA0FC6BB95D851056D27 /* Pods_CryptoEthereumSwiftTests.framework */,
+				FBC25CE062E1D7F70494AF82 /* Pods_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -170,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AD1D62F20B7E822007AFF80 /* Build configuration list for PBXNativeTarget "CryptoEthereumSwift" */;
 			buildPhases = (
+				AF629A1B878019E37A003CFB /* [CP] Check Pods Manifest.lock */,
 				1AD1D61620B7E822007AFF80 /* Sources */,
 				1AD1D61720B7E822007AFF80 /* Frameworks */,
 				1AD1D61820B7E822007AFF80 /* Headers */,
@@ -188,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AD1D63220B7E822007AFF80 /* Build configuration list for PBXNativeTarget "CryptoEthereumSwiftTests" */;
 			buildPhases = (
+				29BB5DC880D4F049AC274199 /* [CP] Check Pods Manifest.lock */,
 				1AD1D62020B7E822007AFF80 /* Sources */,
 				1AD1D62120B7E822007AFF80 /* Frameworks */,
 				1AD1D62220B7E822007AFF80 /* Resources */,
@@ -206,6 +248,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AD1D64D20B7EF31007AFF80 /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
+				7F7F776E5E36D133AA82F23E /* [CP] Check Pods Manifest.lock */,
 				1AD1D63A20B7EF2F007AFF80 /* Sources */,
 				1AD1D63B20B7EF2F007AFF80 /* Frameworks */,
 				1AD1D63C20B7EF2F007AFF80 /* Resources */,
@@ -287,6 +330,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29BB5DC880D4F049AC274199 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoEthereumSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F7F776E5E36D133AA82F23E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF629A1B878019E37A003CFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoEthereumSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1AD1D61620B7E822007AFF80 /* Sources */ = {
@@ -469,6 +581,7 @@
 		};
 		1AD1D63020B7E822007AFF80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50938724AA6EADA14F099795 /* Pods-CryptoEthereumSwift.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -478,13 +591,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/Libraries/openssl/include",
 					"$(SRCROOT)/Libraries/secp256k1/include",
+					"$(inherited)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/CryptoEthereumSwift/SupportingFiles/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -512,6 +623,7 @@
 		};
 		1AD1D63120B7E822007AFF80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EB50AA61FEB8390DE12DE2E /* Pods-CryptoEthereumSwift.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -521,13 +633,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/Libraries/openssl/include",
 					"$(SRCROOT)/Libraries/secp256k1/include",
+					"$(inherited)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/CryptoEthereumSwift/SupportingFiles/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -554,6 +664,7 @@
 		};
 		1AD1D63320B7E822007AFF80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B5BE6C14A7A695A4C779C7 /* Pods-CryptoEthereumSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -572,6 +683,7 @@
 		};
 		1AD1D63420B7E822007AFF80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 736EE17EF13C8E426C422575 /* Pods-CryptoEthereumSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -590,6 +702,7 @@
 		};
 		1AD1D64E20B7EF31007AFF80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B624C7C004DC43BB37527EC /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -608,6 +721,7 @@
 		};
 		1AD1D64F20B7EF31007AFF80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466CACAAC5D3B785B6131F18 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
